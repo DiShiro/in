@@ -1,0 +1,27 @@
+a:hover{
+    color: aqua;
+}
+li:nth-child(even){
+    color: red;
+}
+
+div::before{
+    content: "";
+    position: absolute;
+    left: -22px;
+    width: 30px;
+    height: 30px;
+    background-image: url(./ish.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div::after{
+    content: "";
+    position: absolute;
+    left: 100px;
+    width: 30px;
+    height: 30px;
+    background-image: url(./ish.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
